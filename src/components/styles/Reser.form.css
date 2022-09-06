@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-bg{
+    max-width: 1280px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 700px;
+    height: 700px;
+    background-color:whitesmoke ;
+}
+.form-text{
+    text-align: center;
+    margin: 40px 0;
+}
+.main-form div{
+    width: 300px;
+    margin:10px 20px ;
+    display: inline-block;
+}
+.main-form div input{
+   width: 100%;
+}
+#submit{
+    width: 100%;
+    text-align: center;
+}
+#submit input{
+    width: 200px;
+}
+#submit input{
+    background-color:  #3eb599;
+    color: white;
+}
